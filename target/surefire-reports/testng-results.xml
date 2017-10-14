@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6232" started-at="2017-10-14T14:54:55Z" finished-at="2017-10-14T14:55:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6232" started-at="2017-10-14T14:54:55Z" finished-at="2017-10-14T14:55:01Z">
+      <class name="getRequest.GetData2">
+        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:getRequest.GetData2@4e8e8621]" name="testResponsecode" duration-ms="422" started-at="2017-10-14T10:55:00Z" finished-at="2017-10-14T10:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponsecode -->
+        <test-method status="PASS" signature="testBody()[pri:0, instance:getRequest.GetData2@4e8e8621]" name="testBody" duration-ms="1092" started-at="2017-10-14T10:55:00Z" depends-on-methods="getRequest.GetData2.testResponsecode" finished-at="2017-10-14T10:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBody -->
+      </class> <!-- getRequest.GetData2 -->
+      <class name="getRequest.GetData">
+        <test-method status="PASS" signature="testBody()[pri:0, instance:getRequest.GetData@3e83c18]" name="testBody" duration-ms="4171" started-at="2017-10-14T10:54:55Z" finished-at="2017-10-14T10:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBody -->
+        <test-method status="PASS" signature="testResponsecode()[pri:0, instance:getRequest.GetData@3e83c18]" name="testResponsecode" duration-ms="469" started-at="2017-10-14T10:54:59Z" finished-at="2017-10-14T10:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponsecode -->
+      </class> <!-- getRequest.GetData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
